@@ -361,3 +361,39 @@ footer {
     padding: 22px;
   }
 }
+
+.githubSection {
+  margin: 55px 50px;
+  padding: 40px;
+  text-align: center;
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 28px;
+}
+
+.githubSection p {
+  color: #cbd5e1;
+  line-height: 1.8;
+}
+
+.githubButton {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 14px 24px;
+  background: #67e8f9;
+  color: #020617;
+  border-radius: 999px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.githubButton:hover {
+  background: #22d3ee;
+}
+
+@media (max-width: 900px) {
+  .githubSection {
+    margin: 32px 24px;
+    padding: 28px;
+  }
+}

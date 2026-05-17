@@ -263,7 +263,7 @@ export default function App() {
           text="PointPillars inference was successfully performed using pseudo-LiDAR outputs generated from thermal images in the ViViD dataset. The BEV visualization shows preliminary 3D object detections with low confidence scores. Since the ViViD dataset does not contain ground-truth label files, quantitative evaluation metrics such as mAP or AP could not be computed. Therefore, the current analysis is limited to qualitative evaluation of the generated detections."
         />
 
-        
+
 
       </section>
 
@@ -365,6 +365,26 @@ export default function App() {
 
         </div>
 
+      </section>
+
+      <section className="githubSection">
+        <p className="label">PROJECT REPOSITORY</p>
+
+        <h2>Source Code</h2>
+
+        <p>
+          The project source code, pipeline scripts, and documentation are available
+          in the GitHub repository.
+        </p>
+
+        <a
+          href="https://github.com/FatmaNurKucukkeskin/thermal-pseudo-lidar-3d-detection"
+          target="_blank"
+          rel="noreferrer"
+          className="githubButton"
+        >
+          View GitHub Repository
+        </a>
       </section>
 
       <footer>
